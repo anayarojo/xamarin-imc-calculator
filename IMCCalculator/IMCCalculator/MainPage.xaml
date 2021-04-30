@@ -12,7 +12,7 @@
             FontAttributes="Bold"
             FontSize="34"
             TextColor="#666"
-        />t
+        />
         <Entry 
             Text="{Binding Height, Mode=TwoWay}" 
             Placeholder="{x:Static resources:AppResources.Entry_Height}"
