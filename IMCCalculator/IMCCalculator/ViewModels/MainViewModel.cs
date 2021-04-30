@@ -53,7 +53,7 @@ namespace IMCCalculator.ViewModels
             var weight = double.Parse(_weight);
             var imc = weight / (height * height);
 
-            Imc = imc.ToString();
+            Imc = imc.ToString("#.00");
             await ShowAlertResult(imc);
         }
 
